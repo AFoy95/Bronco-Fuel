@@ -1,0 +1,8 @@
+{
+  "name": "nutrition-sidemenu",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title>Account</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <ion-list>
+            <ion-item lines="none">
+                {{username}}
+                <div class="item-note" slot="end">
+                    <ion-icon name="contact"></ion-icon>
+                </div>
+            </ion-item>
+            <ion-item lines="none">
+                {{email}}
+                <div class="item-note" slot="end">
+                    <ion-icon name="mail"></ion-icon>
+                </div>
+            </ion-item>
+
+        </ion-list>
+    </ion-card>
+    <!--
+    <div *ngIf="selectedItem" padding>
+      You navigated here from <b>{{selectedItem.title }}</b>
+    </div>
+  -->
+</ion-content>

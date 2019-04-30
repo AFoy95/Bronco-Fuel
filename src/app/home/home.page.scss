@@ -1,0 +1,55 @@
+.welcome-card ion-img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+
+.no-padding {
+  padding: 0px !important;
+  border-radius: 0px !important;
+  $card-ios-border-radius: 0px;
+}
+
+// .ios {
+//   --ion-background-color: #222;
+//   padding: 10px;
+// }
+
+// .bg{
+//   background: url(../../assets/img/bg.png);
+// }
+
+.login {
+  //background: url(../../../resources/bg.png);
+  background: #0f7fd4;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 246px;
+  margin: auto;
+  z-index: 2;
+  position: relative;
+}
+
+.home-page-button {
+  margin: 0px;
+}
+
+
+ion-col {
+  margin-top: 20px;
+}
+
+.homepage_button {
+  margin: 20px 5px;
+  --background: #0033A0;
+}
+
+#settings_icon {
+  color: #0033A0;
+}
+
+#help_icon {
+  color: #0033A0;
+}

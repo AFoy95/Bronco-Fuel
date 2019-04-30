@@ -1,0 +1,39 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title id="settings_icon">
+            Home
+        </ion-title>
+        <ion-buttons slot="primary">
+            <ion-button (click)="HelpButtonClick()">
+                <ion-icon id="help_icon" name="help-circle"></ion-icon>
+            </ion-button>
+            <ion-button (click)="SettingsButtonClick()">
+                <ion-icon id="settings_icon" name="settings"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-img class="no-padding" src="../../assets/img/bg.png"></ion-img>
+    <div class="no-padding">
+        <ion-grid>
+            <ion-row size="6">
+                <ion-col>
+                    <ion-button class="homepage_button" expand="block" justify-content-center fill="solid" (click)=SearchButtonClick()>
+                        <ion-icon slot="start" name="pizza"></ion-icon>Browse Snacks</ion-button>
+                    <ion-button class="homepage_button" expand="block" justify-content-center fill="solid" (click)="ListButtonClick()">
+                        <!--ngOnInit()-->
+                        <ion-icon slot="start" name="list"></ion-icon>Browse Recipes</ion-button>
+                    <ion-button class="homepage_button" expand="block" justify-content-center fill="solid" (click)="BookmarkButtonClick()">
+                        <!--ngOnInit()-->
+                        <ion-icon slot="start" name="bookmark"></ion-icon>View Bookmarked Recipes</ion-button>
+                    <ion-button class="homepage_button" expand="block" justify-content-center fill="solid" (click)=ResourcesButtonClick()>
+                        <ion-icon slot="start" name="link"></ion-icon>Campus Resources</ion-button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
+</ion-content>
